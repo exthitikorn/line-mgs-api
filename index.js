@@ -38,7 +38,7 @@ function handleEvent(event) {
       type: "text",
       text: "Hello From Heroku Server"
     };
-    return client.replyMessage(event.replyToken, payload)
+    return client.replyMessage(event.replyToken, payload);
 
   // create a echoing text message
   const echo = { type: 'text', text: event.message.text };
